@@ -33,7 +33,7 @@ class MatriculaViewSet(viewsets.ModelViewSet):
     throttle_classes = [UserRateThrottle, MatriculaAnonRateThrottle]
     http_method_names = ['get', 'post']
     
-
+ 
 
 class ListaMatriculasEstudante(generics.ListAPIView):
     """
